@@ -1,3 +1,7 @@
 
 This deployment is for internal application only. No external request is expected.
 Refer to ducker hub for the enviromental variable samples
+This code 
+ - creates mongodb pod and it's internal service
+ - mongo-express browser for mongodb with external service
+ 

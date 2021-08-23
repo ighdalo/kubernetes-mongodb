@@ -46,3 +46,6 @@ kubectl get deployment
 
 delete with config
 kubectl delete -f nginx-deployment.yaml
+
+# Deploying AWS EKS cluster
+ $ eksctl create cluster --name web-nodes --version 1.21 --region us-east-2 --nodegroup-name web-nodes  --node-type t2.micro  --nodes 2
